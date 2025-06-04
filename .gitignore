@@ -1,0 +1,67 @@
+# -----------------------
+# Java / Spring Boot
+# -----------------------
+/target/
+/out/
+/*.class
+/*.jar
+/*.war
+/*.ear
+
+# Maven specific
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Spring Boot properties secrets
+# (if you keep local properties outside git)
+*.properties
+*.yml
+
+# -----------------------
+# Node / React
+# -----------------------
+/node_modules/
+/build/
+/dist/
+/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------
+# IDEs & Editors
+# -----------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# Sensitive Files (manual)
+# -----------------------
+# Exclude any file that may contain secrets/configuration
+secret.properties
+credentials.yml
+*.key
+*.pem
+*.p12
+
+# -----------------------
+# OS generated files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+
