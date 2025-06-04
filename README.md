@@ -1,1 +1,1 @@
-# FairShare
+# My Project
